@@ -1,0 +1,208 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190220/ourmid/pngtree-real-estate-transaction-global-trade-data-image_8759.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darkslategrey;
+  color: black;
+  padding: 15px;
+  height: 100vh;
+}
+
+.head {
+  width: 90%;
+  height: 90px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.head h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+}
+
+#btn {
+  background-color: darkcyan;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+#btn:hover {
+  background-color: darkseagreen;
+}
+
+.head1 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.head1 span {
+  display: block;
+  height: 50px;
+  font-size: 20px;
+}
+
+.button1 {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: darkcyan;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.button1 a {
+  text-decoration: none;
+  color: white;
+}
+
+button:hover {
+  background-color: darkseagreen;
+}
+
+@media only screen and (max-width: 600px) {
+  .head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .head h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .button {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .head1 {
+    margin-top: 80px;
+    font-size: 14px;
+  }
+
+  .head1 span {
+    font-size: 18px;
+  }
+
+  .button1 {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+  .head1 {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .head1 span {
+    display: block;
+    height: 50px;
+    font-size: 30px;
+  }
+
+  .button1 {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background-color: darkseagreen;
+  }
+
+  .button1 a{
+    text-decoration: none;
+    color: white;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .head {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .head h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .button {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .head1 {
+      margin-top: 100px;
+      font-size: 16px;
+    }
+
+    .head1 span {
+      font-size: 24px;
+    }
+
+    .button1 {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }

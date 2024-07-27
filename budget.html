@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="budget.css">
+</head>
+<body>
+    <h1>Budget Tracker</h1>
+    <div class="container">
+        <div>
+            <table>
+                <tr>
+                    <td><h3>Budget</h3></td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Enter Total Amount" id="budget"></td>
+                </tr>
+                <tr>
+                    <td><button onclick="setBudget()" id="button1">Set Budget</button></td>
+                </tr>
+            </table>   
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td><h3>Expenses</h3></td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Enter Product Name" id="product"></td>
+                </tr>
+                <tr>
+                    <td><input type="number" placeholder="Enter Product Cost" id="cost"></td>
+                </tr>
+                <tr>
+                    <td><button onclick="addExpense()" id="button2">Check Amount</button></td>
+                </tr>
+            </table>  
+        </div>
+        <div class="track-container">
+
+            <div class="track">
+                <p>Total Budget</p>
+                <span id="amount">0</span>
+            </div>
+
+            <div class="track">
+                <p>Expenses</p>
+                <span id="expenditure">0</span>
+            </div>
+
+            <div class="track">
+                <p>Balance</p>
+                <span id="balance">0</span>
+            </div>
+
+        </div>
+
+        <div>
+            <h3 class="exp">Expenses List</h3>
+            <div id="list"></div>
+        </div>
+    </div>
+
+    <script src="budget.js"></script>
+</body>
+</html>
